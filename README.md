@@ -41,7 +41,7 @@ Usage
 
 Examples
 --------
-I have included a example file in the repo to show you otliam's capabilities.
+I have included an example file in the repo to show you otliam's capabilities.
 
 
 
