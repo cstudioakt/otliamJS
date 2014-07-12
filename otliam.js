@@ -20,7 +20,11 @@
 				name = pre + '@' + post + '.' + ext;
 			}
 		}
+		
+		//Take the whole thing and create a link!
 		$t.text(name).attr('href', str);
+		
+		//Cleanup
 		$t.removeAttr('data-ext').removeAttr('data-post').removeAttr('data-pre');
 	});
 })(jQuery);
