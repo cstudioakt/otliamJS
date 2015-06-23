@@ -1,11 +1,11 @@
 otliam
 ======
 
-A jQuery scraping-free mailto link generator. Spell it backwards!
+A jQuery scraping-free mailto link generator.
 
 Do you want to supply your email address on your website but, want to prevent it from being used by scraping bots which sell your email to spamming groups?
 
-Well this is what this jQuery application is set out to prevent. Scraping bots read the source code of your site and using regular expressions to try and find email addresses. Even just putting your email as plain text is not safe. Scraping bots usually just read uncompiled source. So thats why I develop this jQuery application. It will take a link with no `href` value and parse out the data-fields to build your `mailto:` link.
+Well this is what this jQuery application is set out to prevent. Scraping bots read the source code of your site and use regular expressions to try and find email addresses. Even just putting your email as plain text is not safe. Scraping bots usually just read uncompiled source. So thats why I developed this jQuery script. It will take a link with no `href` value and parse out the data-fields to build your `mailto:` link.
 
 Documentation
 -------------
@@ -28,7 +28,7 @@ Usage
 
 	...
 	// Setup the link
-	<a data-pre="cory.akt" data-post="gmail" data-ext="com"></a>
+	<a class="otliam" data-pre="cory.akt" data-post="gmail" data-ext="com"></a>
 	...
 	// Include jQuery first
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
@@ -37,7 +37,7 @@ Usage
 	
 <strong>Full Blown!</strong>
 
-	<a data-pre="cory.akt" data-post="gmail" data-ext="com" data-name="Click me to send me an email!" data-subject="I use otliam to make my email scrape proof!"></a>
+	<a class="otliam" data-pre="cory.akt" data-post="gmail" data-ext="com" data-name="Click me to send me an email!" data-subject="I use otliam to make my email scrape proof!"></a>
 
 Examples
 --------
